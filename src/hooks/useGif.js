@@ -16,9 +16,9 @@ function useGif(tag) {
     try{
 
       setLoading(true);
-      // const { data } = await axios.get(tag ? tagUrl : randomUrl);
-      // const imageSrc = data.data.images.downsized_large.url;
-      // setGif(imageSrc);
+      const { data } = await axios.get(tag ? tagUrl : randomUrl);
+      const imageSrc = data.data.images.downsized_large.url;
+      setGif(imageSrc);
       
     } catch (error) {
       if (error.response && error.response.status === 403) {
@@ -34,7 +34,7 @@ function useGif(tag) {
   }
 
   useEffect(() => {
-    fetchData('car');
+    fetchData('naruto');
   }, []);
 
   return { gif, loading, fetchData };

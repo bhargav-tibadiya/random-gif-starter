@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Spinner from "./spinner";
 import useGif from "../hooks/useGif";
 import { Toaster } from "react-hot-toast";
