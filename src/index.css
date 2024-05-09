@@ -1,9 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Delius&display=swap');
 
 #root{
   transition: 0.5s all ease;
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 /* css background-image generated using https://10015.io/tools/css-background-pattern-generator */
 .background {
@@ -87,6 +91,11 @@
 
 .tagx .sect {
   border: 1px solid #ff353533;
+}
+
+input{
+  font-size: 18px;
+  padding: 12px 25px;
 }
 
 @keyframes spinner-y0fdc1 {
