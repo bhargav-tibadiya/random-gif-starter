@@ -8,9 +8,14 @@
   font-family: "Delius", cursive;
   font-weight: 400;
   font-style: normal;
+  height: fit-content;
 }
 /* css background-image generated using https://10015.io/tools/css-background-pattern-generator */
 .background {
+  padding-bottom:50px;
+  width: 100vw;
+  min-height: 100vh;
+  height: fit-content;
   background-image: radial-gradient(#ffffff 2.5px, transparent 2.5px), radial-gradient(#ffffff 2.5px, transparent 2.5px);
   background-size: 36px 36px;
   background-position: 0 0, 18px 18px;
